@@ -3,6 +3,8 @@
 Desenvolvimento de Script do Jmeter para execução de teste de performance dentro dos critérios de aceite propostos no desafio técnico do AgileBank
 
 
+
+
 📝**CONSIDERAÇÕES SOBRE EXECUÇÃO:**
 
 Tendo em vista o objetivo e critério de aceite de 250 requisições por segundo com aprovação percentil 90th inferior a 2 segundos
@@ -12,12 +14,16 @@ Além disso utilizei o relatório agregado e também gerei um report html onde a
 Contudo ambos relatórios são úteis para avaliar diferentes métricas onde no relatório html podemos ver o consolidados de requisições que falharam X que deram sucesso enquanto no relatório agregado temos uma avaliação do tempo de resposta mais preciso.
 
 
+
+
 📊 **RESULTADOS:**
 
 (Relatório com gráfico contendo execuções está junto ao projeto)
   🚀 POSITIVO - Com base em minhas execuções e relatório anexado junto ao jmx, o microsserviço atendeu ao critério de aceite de 90th inferior a 2 segundos.
   🚧 NEGATIVO - Contudo considerando outras métricas como o percentil 95th, nossa aplicação não está aderente aos critérios de aceite. 
 Oque poderia ser fator ou débito técnico para investigação e buscar uma melhora em nossos serviços para encurtar o tempo médio de resposta.
+
+
 
 
 **COMO CONFIGURAR E EXECUTAR SCRIPT DE PERFORMANCE:**
