@@ -1,4 +1,4 @@
-**PROPOSTA**
+📈**PROPOSTA**
 
 Desenvolvimento de Script do Jmeter para execução de teste de performance dentro dos critérios de aceite propostos no desafio técnico do AgileBank
 
@@ -7,11 +7,9 @@ Desenvolvimento de Script do Jmeter para execução de teste de performance dent
 
 📝**CONSIDERAÇÕES SOBRE EXECUÇÃO:**
 
-Tendo em vista o objetivo e critério de aceite de 250 requisições por segundo com aprovação percentil 90th inferior a 2 segundos
-Desenvolvi um script de rampa no jmeter utilizando o UltimateThreadGroup no qual simula que 250 usuários simultâneos realizam requisições intermitentes, com ramp-up gradual até atingir o pico de 250 usuários, assim permitindo-nos avaliar o comportamento do microsserviço sob carga máxima planejada.
+Tendo em vista o objetivo e critério de aceite de 250 requisições por segundo com aprovação percentil 90th inferior a 2 segundos. Desenvolvi um script de rampa no jmeter utilizando o UltimateThreadGroup no qual simula que 250 usuários simultâneos realizam requisições intermitentes, com ramp-up gradual até atingir o pico de 250 usuários, assim permitindo-nos avaliar o comportamento do microsserviço sob carga máxima planejada.
 
-Além disso utilizei o relatório agregado e também gerei um report html onde ambos divergem em questão dos tempos de resposta pois o relatório agregado inclui o tempo de resposta de todas requests enquanto o de html pode acabar considerando somente as requisições com sucesso.
-Contudo ambos relatórios são úteis para avaliar diferentes métricas onde no relatório html podemos ver o consolidados de requisições que falharam X que deram sucesso enquanto no relatório agregado temos uma avaliação do tempo de resposta mais preciso.
+Além disso utilizei o relatório agregado e também gerei um report html onde ambos divergem em questão dos tempos de resposta pois o relatório agregado inclui o tempo de resposta de todas requests enquanto o de html pode acabar considerando somente as requisições com sucesso. Contudo ambos relatórios são úteis para avaliar diferentes métricas onde no relatório html podemos ver o consolidados de requisições que falharam X que deram sucesso enquanto no relatório agregado temos uma avaliação do tempo de resposta mais preciso.
 
 
 
@@ -19,8 +17,8 @@ Contudo ambos relatórios são úteis para avaliar diferentes métricas onde no 
 📊 **RESULTADOS:**
 
 (Relatório com gráfico contendo execuções está junto ao projeto)
-  🚀 POSITIVO - Com base em minhas execuções e relatório anexado junto ao jmx, o microsserviço atendeu ao critério de aceite de 90th inferior a 2 segundos.
-  🚧 NEGATIVO - Contudo considerando outras métricas como o percentil 95th, nossa aplicação não está aderente aos critérios de aceite. 
+-  🚀 POSITIVO - Com base em minhas execuções e relatório anexado junto ao jmx, o microsserviço atendeu ao critério de aceite de 90th inferior a 2 segundos.
+-  🚧 NEGATIVO - Contudo considerando outras métricas como o percentil 95th, nossa aplicação não está aderente aos critérios de aceite. 
 Oque poderia ser fator ou débito técnico para investigação e buscar uma melhora em nossos serviços para encurtar o tempo médio de resposta.
 
 
