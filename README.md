@@ -1,8 +1,10 @@
 **PROPOSTA**
+
 Desenvolvimento de Script do Jmeter para execução de teste de performance dentro dos critérios de aceite propostos no desafio técnico do AgileBank
 
 
 📝**CONSIDERAÇÕES SOBRE EXECUÇÃO:**
+
 Tendo em vista o objetivo e critério de aceite de 250 requisições por segundo com aprovação percentil 90th inferior a 2 segundos
 Desenvolvi um script de rampa no jmeter utilizando o UltimateThreadGroup no qual simula que 250 usuários simultâneos realizam requisições intermitentes, com ramp-up gradual até atingir o pico de 250 usuários, assim permitindo-nos avaliar o comportamento do microsserviço sob carga máxima planejada.
 
@@ -11,6 +13,7 @@ Contudo ambos relatórios são úteis para avaliar diferentes métricas onde no 
 
 
 📊 **RESULTADOS:**
+
 (Relatório com gráfico contendo execuções está junto ao projeto)
   🚀 POSITIVO - Com base em minhas execuções e relatório anexado junto ao jmx, o microsserviço atendeu ao critério de aceite de 90th inferior a 2 segundos.
   🚧 NEGATIVO - Contudo considerando outras métricas como o percentil 95th, nossa aplicação não está aderente aos critérios de aceite. 
@@ -18,6 +21,7 @@ Oque poderia ser fator ou débito técnico para investigação e buscar uma melh
 
 
 **COMO CONFIGURAR E EXECUTAR SCRIPT DE PERFORMANCE:**
+
 ✅ PASSO 1 — Instalar o JMeter
 - Acessar o endereço https://jmeter.apache.org/download_jmeter.cgi
 - Instalar o apacheJmeter de Binaries
