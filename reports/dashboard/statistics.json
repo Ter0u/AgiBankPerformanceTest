@@ -1,0 +1,34 @@
+{
+  "Compra de passagem aérea - Passagem comprada com sucesso." : {
+    "transaction" : "Compra de passagem aérea - Passagem comprada com sucesso.",
+    "sampleCount" : 127253,
+    "errorCount" : 24170,
+    "errorPct" : 18.993658,
+    "meanResTime" : 907.2963309313014,
+    "medianResTime" : 557.0,
+    "minResTime" : 0.0,
+    "maxResTime" : 24015.0,
+    "pct1ResTime" : 627.0,
+    "pct2ResTime" : 755.8500000000022,
+    "pct3ResTime" : 1795.9400000000096,
+    "throughput" : 148.1644918921877,
+    "receivedKBytesPerSec" : 748.1608724630703,
+    "sentKBytesPerSec" : 175.34556770113508
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 127253,
+    "errorCount" : 24170,
+    "errorPct" : 18.993658,
+    "meanResTime" : 907.2963309313014,
+    "medianResTime" : 557.0,
+    "minResTime" : 0.0,
+    "maxResTime" : 24015.0,
+    "pct1ResTime" : 627.0,
+    "pct2ResTime" : 755.8500000000022,
+    "pct3ResTime" : 1795.9400000000096,
+    "throughput" : 148.1644918921877,
+    "receivedKBytesPerSec" : 748.1608724630703,
+    "sentKBytesPerSec" : 175.34556770113508
+  }
+}
