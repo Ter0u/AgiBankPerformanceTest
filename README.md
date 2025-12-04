@@ -44,7 +44,7 @@ Oque poderia ser fator ou débito técnico para investigação e buscar uma melh
 
 ✅ PASSO 4 — Mão na Massa
 - Baixar o AgileBankPerformance.jmx
-- Crie a pasta reports
+- Crie a pasta reports dentro do bin
 - E crie uma nova pasta dentro dessa de reports com nome dashboard (Para facilitar o report mais tarde)
 - Inicializar o Jmeter
 - Importar o arquivo jmx para o Jmeter
