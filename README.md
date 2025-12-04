@@ -37,7 +37,7 @@ Oque poderia ser fator ou débito técnico para investigação e buscar uma melh
 - Colar o jar do JMeter Plugins Manager na pasta ext
 
 ✅ PASSO 3 — Instalar o Custom Thread Groups
-- Inicializar o JMeter
+- Inicializar o JMeter selecionando bin > Jmeter.bat
 - Acessar Opções > Plugin Manager
 - Buscar por Custom Thread Groups
 - Instalar e reiniciar o Custom Thread Groups
