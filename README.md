@@ -31,7 +31,7 @@ Oque poderia ser fator ou débito técnico para investigação e buscar uma melh
 - Instalar o apacheJmeter de Binaries
 
 ✅ PASSO 2 — Instalar o JMeter Plugins Manager
-- Acessar o endereço https://jmeter.apache.org/download_jmeter.cgi
+- Acessar o endereço https://jmeter-plugins.org/install/Install/
 - Instalar o JMeter Plugins Manager
 - Ir em apache-jmeter-5.6.3 > lib > ext
 - Colar o jar do JMeter Plugins Manager na pasta ext
